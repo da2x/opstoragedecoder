@@ -15,7 +15,7 @@ def getDecodedElementTextNode(entry, elem):
 		return "nil" # represents literal value
 
 if not len(sys.argv) == 2:
- 	print "Prints a human-readable presentation of the encoded contents in a permanent storage (pstorage) database file used by Opera."
+ 	print "Prints a human-readable presentation of the encoded contents in a persistent storage (pstorage) database file used by Opera."
 	print "\tUsage: `./opstoragedecoder.py <file>`"
 	sys.exit(1)
 
